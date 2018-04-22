@@ -1,0 +1,32 @@
+{
+    "name": "oxide",
+    "displayName": "Oxide",
+    "version": "0.1.0",
+    "description": "A Rust theme for Visual Studio Code.",
+    "engines": {
+        "vscode": "^0.10.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "Luke Wilson",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oxide",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Oxide-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/asmoaesl/oxide-vscode.git"
+    },
+    "keywords": [
+        "theme",
+        "oxide",
+        "rust"
+    ],
+    
+}
